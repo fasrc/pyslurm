@@ -215,7 +215,7 @@ if args[1] == 'clean':
 
     clean()
 
-if args[1] == 'build' or args[1] == 'build_ext':
+if args[1] in ['build', 'build_ext', 'install']:
 
     #
     # Call clean up of temporary build objects
